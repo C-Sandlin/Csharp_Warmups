@@ -11,7 +11,7 @@ namespace warmups
             {
                 Make = "Boeing",
                 Model = "737 Max",
-                Seats = 230,
+                NumberSeats = 230,
                 Speed = 0.79
             };
 
@@ -19,7 +19,7 @@ namespace warmups
             {
                 Make = "Airbus",
                 Model = "A320",
-                Seats = 150,
+                NumberSeats = 150,
                 Speed = 0.68
             };
 
@@ -38,12 +38,12 @@ namespace warmups
     {
         public string Make { get; set; }
         public string Model { get; set; }
-        public int Seats { get; set; }
+        public int NumberSeats { get; set; }
         public double Speed { get; set; }
 
         public void Fly()
         {
-            Console.WriteLine($"The {Make} {Model} has {Seats} seats and flys at Mach {Speed}.");
+            Console.WriteLine($"The {Make} {Model} has {NumberSeats} seats and flys at Mach {Speed}.");
         }
     }
 }
