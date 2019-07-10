@@ -19,8 +19,8 @@ namespace warmups
             {
                 Make = "Airbus",
                 Model = "A320",
-                Seats = 198,
-                Speed = 0.81
+                Seats = 150,
+                Speed = 0.68
             };
 
             var Hangar = new List<Airplane>()
